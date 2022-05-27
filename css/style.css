@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: row;
+ }
+ body nav{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #navbar{
+    /*float:left;*/
+ }
+ 
+ @media (max-width:800px){
+   body{
+     display: flex;
+     flex-direction: column;
+   }
+ } 
